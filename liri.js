@@ -8,3 +8,6 @@ var keys = require("./keys.js");
 //spotify-this-song
 //movie-this
 //do-what-it-says
+
+//should be able to access keys by: 
+// var spotify = new Spotify(keys.spotify);
