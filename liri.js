@@ -2,17 +2,27 @@
 require("dotenv").config();
 
 // requiring different packages
-const keys = require("./keys.js");
-const Spotify = require("node-spotify-api");
-const axios = require('axios');
-const moment = require('moment');
+var keys = require("./keys.js");
+var Spotify = require("node-spotify-api");
+var axios = require('axios');
+var moment = require('moment');
 //should be able to access keys by: 
-const spotify = new Spotify(keys.spotify);
+var spotify = new Spotify(keys.spotify);
+var command = process.argv[2];
 
 //Make it so liri.js can take in one of the following commands:
 
 //concert-this
-//spotify-this-song
-//movie-this
-//do-what-it-says
+  //command syntax 'node liri.js concert-this <artist/band name here>''
 
+
+//spotify-this-song
+  // syntax 'node liri.js spotify-this-song '<song name here>''
+
+//movie-this
+  // syntax 'node liri.js movie-this '<movie name here>''
+
+//do-what-it-says
+  // syntax 'node liri.js do-what-it-says'
+
+  
