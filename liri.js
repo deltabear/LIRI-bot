@@ -1,6 +1,13 @@
+//read and set any environment variables with the dotenv package:
 require("dotenv").config();
 
-var keys = require("./keys.js");
+// requiring different packages
+const keys = require("./keys.js");
+const Spotify = require("node-spotify-api");
+const axios = require('axios');
+const moment = require('moment');
+//should be able to access keys by: 
+const spotify = new Spotify(keys.spotify);
 
 //Make it so liri.js can take in one of the following commands:
 
@@ -9,5 +16,3 @@ var keys = require("./keys.js");
 //movie-this
 //do-what-it-says
 
-//should be able to access keys by: 
-// var spotify = new Spotify(keys.spotify);
