@@ -33,6 +33,8 @@ switch (option) {
       break;
   default:
       // 1- read file
+      //do-what-it-says
+  // syntax 'node liri.js do-what-it-says'
       fs.readFile("random.txt", "utf8", function (error, data) {
           // 2-retrieve content & parse string
           var data = data.split(",");
@@ -91,10 +93,3 @@ function movieThis(movieName) {
         }
     );
 }
-
-//do-what-it-says
-  // syntax 'node liri.js do-what-it-says'
-function doWhatItSays(){
-
-}
-  
