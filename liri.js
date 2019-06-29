@@ -20,7 +20,7 @@ var query = process.argv[3];
 // Take User command and input
 var option = process.argv[2];
 
-
+//switch to execute different functions based on commands user inputs
 switch (option) {
   case "movie-this":
       movieThis(query);
@@ -76,12 +76,14 @@ function concertThis(artist) {
 //movie-this
   // syntax 'node liri.js movie-this '<movie name here>''
 function movieThis(movieName) {
+    //if no movie name is entered, query will search Mr. Nobody
     if (!movieName) {
         movieName = "Mr. Nobody";
     }
     var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey=trilogy";
     // Creating a request with axios to the queryUrl
     axios.get(queryUrl).then(
+        //promise
         function (response) {
             if (!movieName) {
                 movieName = "Mr. Nobody";
