@@ -1,8 +1,13 @@
 # LIRI-bot
 LIRI is a Language Interpretation and Recognition Interface. LIRI will be a CLI (command line interface) node app that takes in parameters and gives you back data.
 
+## To Use:
+    * Navigate in your terminal/command prompt to your LIRI-Bot folder.
+    * Begin every command with `node liri.js`
+You are now ready to issue commands to LIRI!
+
 ## LIRI Commands
-    
+
 1. `node liri.js concert-this <artist/band name here>`
     
    * This will search the Bands in Town Artist Events API (`"https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp"`) for an artist and render the following information about each event to the terminal:
