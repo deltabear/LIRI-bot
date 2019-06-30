@@ -18,7 +18,7 @@ You are now ready to issue commands to LIRI!
 
      * Date of the Event (use moment to format this as "MM/DD/YYYY")
 
-(/images/concert-this.jpg)
+![](/images/concert-this.jpg)
 
 2. `node liri.js spotify-this-song '<song name here>'`
 
@@ -33,7 +33,7 @@ You are now ready to issue commands to LIRI!
      * The album that the song is from
  * If no song is provided then your program will default to "The Sign" by Ace of Base.
 
- (images/spotify-this-song.png)
+![](/images/spotify-this-song.png)
 
 3. `node liri.js movie-this '<movie name here>'`
 
@@ -52,7 +52,7 @@ You are now ready to issue commands to LIRI!
 
    * If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 
-(images/movie-this.png)
+![](/images/movie-this.png)
 
 4. `node liri.js do-what-it-says`
 
@@ -62,4 +62,4 @@ You are now ready to issue commands to LIRI!
 
      * You can edit the file to give different commands to LIRI.
 
-(images/do-what-it-says.png)
+![](/images/do-what-it-says.png)
