@@ -1,6 +1,8 @@
 # LIRI-bot
 LIRI is a Language Interpretation and Recognition Interface. LIRI will be a CLI (command line interface) node app that takes in parameters and gives you back data.
 
+* Made with `Node.js`, `Axios`, `dotenv`, `Moment`, `Node-Spotify-API`, `NPM`, and `Javascript`
+
 ## To Use:
     * Navigate in your terminal/command prompt to your LIRI-Bot folder.
     * Begin every command with `node liri.js`
@@ -63,3 +65,7 @@ You are now ready to issue commands to LIRI!
      * You can edit the file to give different commands to LIRI.
 
 ![](/images/do-what-it-says.png)
+
+## Acknowledgments
+
+* Special thanks to [Dcoxmen](https://github.com/Dcoxmen) for providing [Youtube tutorials for Node.js CLI applications.] (https://youtu.be/9_3KEd--tSE)
